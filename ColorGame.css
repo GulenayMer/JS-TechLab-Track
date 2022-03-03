@@ -1,42 +1,50 @@
 body {
-    background-color: #232323;
+    background-color: rgba(237,213,195,1);
+	margin: 0;
+	font-family: "Montserrat";
 }
 
+h1
+{
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px, 0;
+	margin: 50px;
+}
 
 .square {
     width: 30%;
     background-color: blueviolet;
     padding-bottom: 30%;
-    float: left;
+	padding: 20x 20x;
+	float: left;
     margin: 1.66%;
- 
+	border-radius: 10%;
 }
 
-
 #container {
+
     max-width: 600px;  /* max-width, the max width of the element */
     margin: 0 auto;   /* auto - left and right, 0 top and bottom; centered*/
 }
 
 
-h1 {
-    color: white;
-    text-align: center;
-}
-
-
-/* span {
-    color: white;
-} */
-
 #stripe {
-    background-color: white;
     height: 30px;
     text-align: center;
     color: black;
+	margin: 20px 20px;
 }
 
+button
+{
+	border-radius: 5%;
+	background-color: rgb(180, 180, 70);
+	margin: 5px;
+}
 
 .selected {
-    background-color: blue;
+    background-color: rgb(222, 245, 169);
 }
